@@ -1,0 +1,1203 @@
+[02:56:46] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[02:56:46] [Server thread/INFO]: Loading properties
+[02:56:46] [Server thread/INFO]: Default game type: SURVIVAL
+[02:56:47] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[02:56:47] [Server thread/INFO]: Debug logging is disabled
+[02:56:47] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[02:56:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[02:56:47] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:56:47] [Server thread/INFO]: Data value allowed items: 
+[02:56:47] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[02:56:47] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[02:56:47] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[02:56:47] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[02:56:47] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[02:56:47] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[02:56:47] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[02:56:47] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[02:56:47] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[02:56:47] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[02:56:47] [Server thread/INFO]: Generating keypair
+[02:56:47] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[02:56:47] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[02:56:47] [Server thread/INFO]: Using default channel type
+[02:56:47] [Server thread/ERROR]: Ambiguous plugin name `EaglerPluginInstaller' for files `plugins/EaglerPluginInstaller.jar' and `plugins/EaglerPluginInstaller-1.1.5.jar' in `plugins'
+[02:56:47] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[02:56:47] [Server thread/INFO]: [Shop] Loading Shop v1.3
+[02:56:47] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[02:56:47] [Server thread/INFO]: [[EaglerPluginInstaller]] Loading EaglerPluginInstaller v1.1.4
+[02:56:47] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[02:56:47] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[02:56:47] [Server thread/INFO]: [[EaglerPluginUpdater]] Loading EaglerPluginUpdater v1.1.2
+[02:56:47] [Server thread/INFO]: [ToolStats] Loading ToolStats v1.1.4
+[02:56:47] [Server thread/INFO]: [DupePatch] Loading DupePatch v1.0.0
+[02:56:47] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[02:56:47] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v5.7.5
+[02:56:47] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:56:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:56:47] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[02:56:47] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[02:56:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:56:47] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[02:56:47] [Server thread/INFO]: Preparing level "world"
+[02:56:47] [Server thread/INFO]: -------- World Settings For [world] --------
+[02:56:47] [Server thread/INFO]: Mob Spawn Range: 4
+[02:56:47] [Server thread/INFO]: Anti X-Ray: true
+[02:56:47] [Server thread/INFO]: 	Engine Mode: 1
+[02:56:47] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[02:56:47] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[02:56:47] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:56:47] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:56:47] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:56:47] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:56:47] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:56:47] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:56:47] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:56:47] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:56:47] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:56:47] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[02:56:47] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:56:47] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[02:56:47] [Server thread/INFO]: Random Lighting Updates: false
+[02:56:47] [Server thread/INFO]: Structure Info Saving: true
+[02:56:47] [Server thread/INFO]: Sending up to 10 chunks per packet
+[02:56:47] [Server thread/INFO]: Max Entity Collisions: 8
+[02:56:47] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[02:56:47] [Server thread/INFO]: Max TNT Explosions: 100
+[02:56:47] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:56:47] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:56:47] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:56:47] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:56:47] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:56:47] [Server thread/INFO]: View Distance: 4
+[02:56:47] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:56:47] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[02:56:47] [Server thread/INFO]: Clear tick list: false
+[02:56:47] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:56:47] [Server thread/INFO]: -------- World Settings For [world] --------
+[02:56:48] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[02:56:48] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[02:56:48] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[02:56:48] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[02:56:48] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[02:56:48] [Server thread/INFO]: Water over lava flow speed: 5
+[02:56:48] [Server thread/INFO]: Fix TNT cannons: false
+[02:56:48] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[02:56:48] [Server thread/INFO]: Keep spawn chunk loaded: true
+[02:56:48] [Server thread/INFO]: World async lighting: false
+[02:56:48] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[02:56:48] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[02:56:48] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[02:56:48] [Server thread/INFO]: Mob Spawn Range: 4
+[02:56:48] [Server thread/INFO]: Anti X-Ray: true
+[02:56:48] [Server thread/INFO]: 	Engine Mode: 1
+[02:56:48] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[02:56:48] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[02:56:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:56:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:56:48] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:56:48] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:56:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:56:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:56:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:56:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:56:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:56:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[02:56:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:56:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[02:56:48] [Server thread/INFO]: Random Lighting Updates: false
+[02:56:48] [Server thread/INFO]: Structure Info Saving: true
+[02:56:48] [Server thread/INFO]: Sending up to 10 chunks per packet
+[02:56:48] [Server thread/INFO]: Max Entity Collisions: 8
+[02:56:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[02:56:48] [Server thread/INFO]: Max TNT Explosions: 100
+[02:56:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:56:48] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:56:48] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:56:48] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:56:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:56:48] [Server thread/INFO]: View Distance: 4
+[02:56:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:56:48] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[02:56:48] [Server thread/INFO]: Clear tick list: false
+[02:56:48] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:56:48] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[02:56:48] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[02:56:48] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[02:56:48] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[02:56:48] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[02:56:48] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[02:56:48] [Server thread/INFO]: Water over lava flow speed: 5
+[02:56:48] [Server thread/INFO]: Fix TNT cannons: false
+[02:56:48] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[02:56:48] [Server thread/INFO]: Keep spawn chunk loaded: true
+[02:56:48] [Server thread/INFO]: World async lighting: false
+[02:56:48] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[02:56:48] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[02:56:48] [Server thread/INFO]: Preparing start region for level 0 (Seed: -640423321597583421)
+[02:56:49] [Server thread/INFO]: Preparing spawn area: 38%
+[02:56:49] [Server thread/INFO]: Preparing start region for level 1 (Seed: -640423321597583421)
+[02:56:50] [Server thread/INFO]: Preparing spawn area: 60%
+[02:56:50] [Server thread/INFO]: [Shop] Enabling Shop v1.3
+[02:56:50] [Server thread/INFO]: [Shop] Shops will use emerald as the physical economy on the server.
+
+[02:56:50] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[02:56:50] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[02:56:50] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[02:56:51] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[02:56:51] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
+[02:56:51] [Server thread/INFO]: Check 1 passed
+
+[02:56:52] [Server thread/INFO]: Check 3 passed
+
+[02:56:52] [Server thread/INFO]: --------------------------------------------[m
+
+[02:56:52] [Server thread/INFO]: --------------------------------------------[m
+
+[02:56:52] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.5 is now Enabled! :D[m
+
+[02:56:52] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
+
+[02:56:52] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console[m
+
+[02:56:52] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
+
+[02:56:52] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add[m
+
+[02:56:52] [Server thread/INFO]: --------------------------------------------[m
+
+[02:56:52] [Server thread/INFO]: --------------------------------------------[m
+
+[02:56:52] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[02:56:52] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[02:56:52] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[02:56:52] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[02:56:52] [Server thread/INFO]: [[EaglerPluginUpdater]] Enabling EaglerPluginUpdater v1.1.2
+[02:56:53] [Server thread/INFO]: [[EaglerPluginInstaller]] Disabling EaglerPluginInstaller v1.1.4
+[02:56:53] [Server thread/INFO]: --------------------------------------------[m
+
+[02:56:53] [Server thread/INFO]: --------------------------------------------[m
+
+[02:56:53] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m PluginInstaller V1.1.5 is now Disabled! D:[m
+
+[02:56:53] [Server thread/INFO]: --------------------------------------------[m
+
+[02:56:53] [Server thread/INFO]: --------------------------------------------[m
+
+[02:56:53] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
+[02:56:53] [Server thread/INFO]: Check 1 passed
+
+[02:56:53] [Server thread/INFO]: Check 3 passed
+
+[02:56:53] [Server thread/INFO]: --------------------------------------------[m
+
+[02:56:53] [Server thread/INFO]: --------------------------------------------[m
+
+[02:56:53] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.5 is now Enabled! :D[m
+
+[02:56:53] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
+
+[02:56:53] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console[m
+
+[02:56:53] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
+
+[02:56:53] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add[m
+
+[02:56:53] [Server thread/INFO]: --------------------------------------------[m
+
+[02:56:53] [Server thread/INFO]: --------------------------------------------[m
+
+[02:56:53] [Server thread/INFO]: --------------------------------------------[m
+
+[02:56:53] [Server thread/INFO]: --------------------------------------------[m
+
+[02:56:53] [Server thread/INFO]: [0;32;1m[EaglerPluginUpdater][0;36;1m EaglerPluginUpdater V1.1.2 is now Enabled! :D[m
+
+[02:56:53] [Server thread/INFO]: You do not need to do anything, this plugin will automatically update your PluginUpdater on startup[m
+
+[02:56:53] [Server thread/INFO]: --------------------------------------------[m
+
+[02:56:53] [Server thread/INFO]: --------------------------------------------[m
+
+[02:56:53] [Server thread/INFO]: [ToolStats] Enabling ToolStats v1.1.4
+[02:56:53] [Server thread/INFO]: [DupePatch] Enabling DupePatch v1.0.0
+[02:56:53] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[02:56:53] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[02:56:53] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[02:56:53] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[02:56:53] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[02:56:53] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v5.7.5
+[02:56:53] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[02:56:53] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[02:56:53] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[02:56:53] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[02:56:53] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[02:56:53] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[02:56:53] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[02:56:53] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[02:56:53] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[02:56:53] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[02:56:53] [Server thread/INFO]: [WorldGuard] 1 regions loaded for 'world'
+[02:56:53] [Server thread/INFO]: [WorldGuard] 0 regions loaded for 'world_nether'
+[02:56:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:56:53] [Server thread/INFO]: Done (5.822s)! For help, type "help" or "?"
+[02:56:53] [Server thread/INFO]: Timings Reset
+[02:56:53] [Craft Scheduler Thread - 0/INFO]: [Metrics] Connection refused
+[02:56:54] [Craft Scheduler Thread - 1/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[02:56:54] [Craft Scheduler Thread - 1/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[02:56:54] [Craft Scheduler Thread - 1/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[02:57:19] [Thread-7/INFO]: UUID of player Destructive_Bob is ef566981-37a8-3e53-8425-b29b60b44d98
+[02:57:19] [Server thread/INFO]: Destructive_Bob[/[0:0:0:0:0:0:0:1]:59402] logged in with entity id 574 at ([world]-220.0, 64.0, 188.0)
+[02:57:22] [Thread-8/INFO]: UUID of player allahu_akbar is 04db078e-f20e-3fb3-85b9-a34c761e6b80
+[02:57:23] [Server thread/INFO]: allahu_akbar[/[0:0:0:0:0:0:0:1]:54100] logged in with entity id 866 at ([world]-220.0, 64.0, 188.0)
+[02:57:28] [Server thread/INFO]: Destructive_Bob lost connection: Disconnected
+[02:57:28] [Server thread/INFO]: Destructive_Bob left the game.
+[02:57:40] [Server thread/INFO]: allahu_akbar issued server command: /home n
+[02:58:39] [Thread-9/INFO]: UUID of player ________________ is 309ab0c3-587c-3840-b643-a966d8825fb7
+[02:58:39] [Server thread/INFO]: ________________[/[0:0:0:0:0:0:0:1]:35130] logged in with entity id 1438 at ([world]-220.0, 64.0, 188.0)
+[02:58:41] [Server thread/INFO]: ________________ lost connection: Disconnected
+[02:58:41] [Server thread/INFO]: ________________ left the game.
+[02:58:44] [Thread-10/INFO]: UUID of player ________________ is 309ab0c3-587c-3840-b643-a966d8825fb7
+[02:58:44] [Server thread/INFO]: ________________[/[0:0:0:0:0:0:0:1]:44636] logged in with entity id 1622 at ([world]-220.0, 64.0, 188.0)
+[02:58:45] [Server thread/INFO]: ________________ lost connection: Disconnected
+[02:58:45] [Server thread/INFO]: ________________ left the game.
+[02:58:47] [Server thread/INFO]: allahu_akbar lost connection: Disconnected
+[02:58:47] [Server thread/INFO]: allahu_akbar left the game.
+[02:58:48] [Thread-11/INFO]: UUID of player ________________ is 309ab0c3-587c-3840-b643-a966d8825fb7
+[02:58:48] [Server thread/INFO]: ________________[/[0:0:0:0:0:0:0:1]:44646] logged in with entity id 1633 at ([world]-220.0, 64.0, 188.0)
+[02:59:10] [Server thread/INFO]: ________________ issued server command: /home nether
+[02:59:22] [Thread-12/INFO]: UUID of player allahu_akbar is 04db078e-f20e-3fb3-85b9-a34c761e6b80
+[02:59:22] [Server thread/INFO]: allahu_akbar[/[0:0:0:0:0:0:0:1]:39374] logged in with entity id 2056 at ([world]-220.0, 64.0, 188.0)
+[03:00:21] [Async Chat Thread - #0/INFO]: <________________> ?[m
+
+[03:00:26] [Server thread/INFO]: allahu_akbar issued server command: /home vill
+[03:00:29] [Server thread/INFO]: allahu_akbar issued server command: /homes
+[03:01:12] [Server thread/INFO]: allahu_akbar issued server command: /home lib
+[03:02:22] [Thread-14/INFO]: UUID of player AusAir is 1042ecaf-2709-3f8a-a556-8233b00a34e6
+[03:02:22] [Server thread/INFO]: AusAir[/[0:0:0:0:0:0:0:1]:34624] logged in with entity id 3384 at ([world]-220.0, 64.0, 188.0)
+[03:02:35] [Server thread/INFO]: ________________ issued server command: /tpahere ausair
+[03:02:54] [Async Chat Thread - #1/INFO]: <AusAir> what could go wrong[m
+
+[03:03:16] [Server thread/INFO]: allahu_akbar lost connection: Disconnected
+[03:03:16] [Server thread/INFO]: allahu_akbar left the game.
+[03:03:41] [Server thread/INFO]: ________________ issued server command: /tpahere ausair
+[03:03:50] [Server thread/INFO]: AusAir issued server command: /tpaccept
+[03:04:09] [Thread-15/INFO]: UUID of player BigDickPerson is 85934d56-958c-3627-8a8c-6d4be04fb46f
+[03:04:09] [Server thread/INFO]: BigDickPerson[/[0:0:0:0:0:0:0:1]:59938] logged in with entity id 4204 at ([world]-220.0, 64.0, 188.0)
+[03:04:42] [Server thread/INFO]: AusAir was slain by ________________
+[03:04:49] [Server thread/INFO]: AusAir issued server command: /home home
+[03:05:27] [Thread-16/INFO]: UUID of player Mr_Hugs is d9e61b9d-9b8c-325f-b3a7-ca4fc3111270
+[03:05:27] [Server thread/INFO]: Mr_Hugs[/[0:0:0:0:0:0:0:1]:32846] logged in with entity id 4811 at ([world]-220.0, 64.0, 188.0)
+[03:05:44] [Server thread/INFO]: AusAir issued server command: /tpa ________________
+[03:05:46] [Server thread/INFO]: Mr_Hugs lost connection: Disconnected
+[03:05:46] [Server thread/INFO]: Mr_Hugs left the game.
+[03:05:55] [Thread-17/INFO]: UUID of player Mr_Hugs is d9e61b9d-9b8c-325f-b3a7-ca4fc3111270
+[03:05:55] [Server thread/INFO]: Mr_Hugs[/[0:0:0:0:0:0:0:1]:53460] logged in with entity id 4982 at ([world]-220.0, 64.0, 188.0)
+[03:05:59] [Server thread/INFO]: Mr_Hugs lost connection: Disconnected
+[03:05:59] [Server thread/INFO]: Mr_Hugs left the game.
+[03:06:01] [Server thread/INFO]: AusAir issued server command: /back
+[03:06:54] [Craft Scheduler Thread - 14/INFO]: [Metrics] Connection refused
+[03:07:04] [Server thread/INFO]: ________________ issued server command: /home nether
+[03:07:10] [Server thread/INFO]: BigDickPerson issued server command: /sethome netherportal
+[03:07:25] [Server thread/INFO]: BigDickPerson issued server command: /home iamcool
+[03:07:28] [Thread-18/INFO]: UUID of player Mr_Hugs is d9e61b9d-9b8c-325f-b3a7-ca4fc3111270
+[03:07:28] [Server thread/INFO]: Mr_Hugs[/[0:0:0:0:0:0:0:1]:56030] logged in with entity id 5348 at ([world]-220.0, 64.0, 188.0)
+[03:07:32] [Server thread/INFO]: AusAir tried to swim in lava
+[03:07:36] [Server thread/WARN]: Mr_Hugs was kicked for floating too long!
+[03:07:36] [Server thread/INFO]: Mr_Hugs lost connection: Flying is not enabled on this server
+[03:07:36] [Server thread/INFO]: Mr_Hugs left the game.
+[03:07:38] [Async Chat Thread - #2/INFO]: <________________> lol[m
+
+[03:07:41] [Async Chat Thread - #2/INFO]: <________________> L[m
+
+[03:07:44] [Thread-19/INFO]: UUID of player allahu_akbar is 04db078e-f20e-3fb3-85b9-a34c761e6b80
+[03:07:44] [Server thread/INFO]: allahu_akbar[/[0:0:0:0:0:0:0:1]:32956] logged in with entity id 5888 at ([world]-220.0, 64.0, 188.0)
+[03:07:46] [Server thread/INFO]: ________________ issued server command: /home base
+[03:07:47] [Async Chat Thread - #2/INFO]: <AusAir> bruddaaa[m
+
+[03:07:50] [Thread-20/INFO]: UUID of player black_lock_ash is fdc65351-a72f-3a4f-954a-174adeeface2
+[03:07:50] [Server thread/INFO]: black_lock_ash[/[0:0:0:0:0:0:0:1]:32972] logged in with entity id 5893 at ([world]-220.0, 64.0, 188.0)
+[03:07:53] [Server thread/INFO]: black_lock_ash lost connection: Disconnected
+[03:07:53] [Server thread/INFO]: black_lock_ash left the game.
+[03:07:57] [Server thread/INFO]: BigDickPerson issued server command: /sethome newhome
+[03:07:57] [Thread-21/INFO]: UUID of player black_lock_ash is fdc65351-a72f-3a4f-954a-174adeeface2
+[03:07:57] [Server thread/INFO]: black_lock_ash[/[0:0:0:0:0:0:0:1]:57220] logged in with entity id 6141 at ([world]-220.0, 64.0, 188.0)
+[03:07:59] [Async Chat Thread - #2/INFO]: <AusAir> rhys was someone elsecontrolling ur character[m
+
+[03:08:14] [Server thread/INFO]: allahu_akbar lost connection: Login timed out!
+[03:08:14] [Server thread/INFO]: allahu_akbar left the game.
+[03:08:14] [Server thread/WARN]: handleDisconnection() called twice
+[03:08:41] [Async Chat Thread - #2/INFO]: <________________> I need food[m
+
+[03:08:44] [Server thread/INFO]: AusAir issued server command: /home home
+[03:08:50] [Async Chat Thread - #2/INFO]: <________________> ill trade diamonds for food[m
+
+[03:08:54] [Server thread/INFO]: ________________ issued server command: /home 2
+[03:08:55] [Async Chat Thread - #2/INFO]: <BigDickPerson> ok[m
+
+[03:08:59] [Async Chat Thread - #2/INFO]: <BigDickPerson> tp me[m
+
+[03:09:06] [Async Chat Thread - #2/INFO]: <BigDickPerson> i got a carrot farm[m
+
+[03:09:09] [Server thread/INFO]: ________________ issued server command: /tpahere bigdickperson
+[03:09:15] [Async Chat Thread - #2/INFO]: <BigDickPerson> hold on[m
+
+[03:09:26] [Thread-22/INFO]: UUID of player allahu_akbar is 04db078e-f20e-3fb3-85b9-a34c761e6b80
+[03:09:26] [Server thread/INFO]: allahu_akbar[/[0:0:0:0:0:0:0:1]:42044] logged in with entity id 6595 at ([world]-220.0, 64.0, 188.0)
+[03:09:30] [Async Chat Thread - #2/INFO]: <BigDickPerson> im gonna grab food and put away stuff[m
+
+[03:09:40] [Server thread/INFO]: allahu_akbar lost connection: Disconnected
+[03:09:40] [Server thread/INFO]: allahu_akbar left the game.
+[03:10:08] [Server thread/INFO]: ________________ issued server command: /tpahere bigdickperson
+[03:10:22] [Server thread/INFO]: ________________ issued server command: /tpahere bigdickperson
+[03:10:23] [Async Chat Thread - #2/INFO]: <BigDickPerson> ok tp[m
+
+[03:10:37] [Server thread/INFO]: BigDickPerson issued server command: /tpa ________________
+[03:10:48] [Async Chat Thread - #2/INFO]: <________________> tp to me[m
+
+[03:10:48] [Async Chat Thread - #2/INFO]: <BigDickPerson> oi[m
+
+[03:10:52] [Async Chat Thread - #2/INFO]: <BigDickPerson> ok[m
+
+[03:10:54] [Async Chat Thread - #2/INFO]: <BigDickPerson> accept[m
+
+[03:10:57] [Server thread/INFO]: ________________ issued server command: /tpahere bigdickperson
+[03:10:59] [Server thread/INFO]: BigDickPerson issued server command: /tpa ________________
+[03:11:02] [Async Chat Thread - #2/INFO]: <________________> accept[m
+
+[03:11:07] [Async Chat Thread - #2/INFO]: <BigDickPerson> no[m
+
+[03:11:12] [Async Chat Thread - #2/INFO]: <________________> why not[m
+
+[03:11:19] [Async Chat Thread - #2/INFO]: <BigDickPerson> bec i dont trust you[m
+
+[03:11:24] [Thread-23/INFO]: UUID of player Mr_Hugs is d9e61b9d-9b8c-325f-b3a7-ca4fc3111270
+[03:11:24] [Server thread/INFO]: Mr_Hugs[/[0:0:0:0:0:0:0:1]:56502] logged in with entity id 7574 at ([world]-220.0, 64.0, 188.0)
+[03:11:25] [Async Chat Thread - #2/INFO]: <BigDickPerson> just lemme come to you[m
+
+[03:11:37] [Server thread/INFO]: Mr_Hugs lost connection: Disconnected
+[03:11:37] [Server thread/INFO]: Mr_Hugs left the game.
+[03:11:38] [Server thread/INFO]: ________________ issued server command: /tpahere bigdickperson
+[03:11:41] [Thread-24/INFO]: UUID of player Mr_Hugs is d9e61b9d-9b8c-325f-b3a7-ca4fc3111270
+[03:11:41] [Server thread/INFO]: Mr_Hugs[/[0:0:0:0:0:0:0:1]:46708] logged in with entity id 8414 at ([world]-220.0, 64.0, 188.0)
+[03:11:44] [Async Chat Thread - #2/INFO]: <BigDickPerson> i have got nothing but carrots[m
+
+[03:11:46] [Async Chat Thread - #2/INFO]: <________________> its a tpahere[m
+
+[03:11:56] [Server thread/INFO]: BigDickPerson issued server command: /tpa ________________
+[03:12:01] [Server thread/INFO]: ________________ issued server command: /tpaccept
+[03:12:03] [Server thread/INFO]: ________________ issued server command: /tpaccept
+[03:12:10] [Server thread/INFO]: BigDickPerson was slain by ________________
+[03:12:13] [Async Chat Thread - #2/INFO]: <________________> thx[m
+
+[03:12:17] [Server thread/INFO]: ________________ issued server command: /home base
+[03:12:22] [Server thread/INFO]: BigDickPerson issued server command: /back
+[03:12:25] [Async Chat Thread - #2/INFO]: <black_lock_ash> arda how did you die[m
+
+[03:12:26] [Server thread/INFO]: AusAir issued server command: /tpa BigDickPerson
+[03:12:31] [Server thread/INFO]: BigDickPerson issued server command: /accept
+[03:12:45] [Server thread/INFO]: BigDickPerson issued server command: /home newhome
+[03:12:52] [Server thread/INFO]: AusAir issued server command: /home home
+[03:12:59] [Async Chat Thread - #2/INFO]: <BigDickPerson> oi[m
+
+[03:13:08] [Async Chat Thread - #2/INFO]: <BigDickPerson> i just wanted to help[m
+
+[03:13:09] [Async Chat Thread - #2/INFO]: <BigDickPerson> fuck you[m
+
+[03:13:18] [Async Chat Thread - #2/INFO]: <________________> :0[m
+
+[03:13:28] [Async Chat Thread - #2/INFO]: <AusAir> i have some food for u rhys[m
+
+[03:13:29] [Async Chat Thread - #2/INFO]: <AusAir> for free[m
+
+[03:13:34] [Thread-25/INFO]: UUID of player Boon2 is d1a4580a-7037-33c8-b674-e6cfff3cc04a
+[03:13:34] [Server thread/INFO]: Boon2[/[0:0:0:0:0:0:0:1]:40694] logged in with entity id 10271 at ([world]-220.0, 64.0, 188.0)
+[03:13:36] [Async Chat Thread - #2/INFO]: <BigDickPerson> you better watch your back at break[m
+
+[03:13:41] [Async Chat Thread - #2/INFO]: <AusAir> he means irl[m
+
+[03:13:42] [Async Chat Thread - #2/INFO]: <AusAir> btw[m
+
+[03:13:44] [Async Chat Thread - #2/INFO]: <AusAir> non minecraft[m
+
+[03:13:50] [Server thread/INFO]: AusAir issued server command: /tpa ________________
+[03:13:57] [Async Chat Thread - #2/INFO]: <Boon2> anybody at spawn?[m
+
+[03:14:03] [Server thread/INFO]: AusAir issued server command: /home spawn
+[03:14:05] [Async Chat Thread - #2/INFO]: <BigDickPerson> nuh uh[m
+
+[03:14:06] [Server thread/INFO]: AusAir issued server command: /tpa Boon2
+[03:14:13] [Server thread/INFO]: ________________ issued server command: /nether2
+[03:14:16] [Async Chat Thread - #2/INFO]: <________________> nope[m
+
+[03:14:21] [Server thread/INFO]: ________________ issued server command: /home nether
+[03:14:26] [Server thread/INFO]: Boon2 issued server command: /tp 0, 0
+[03:14:26] [Server thread/INFO]: [Boon2: The entity UUID provided is in an invalid format]
+[03:14:26] [Server thread/INFO]: AusAir issued server command: /tpcancel BigDickPerson
+[03:14:32] [Server thread/INFO]: Boon2 issued server command: /tp Boon2 0,0
+[03:14:32] [Server thread/INFO]: [Boon2: The entity UUID provided is in an invalid format]
+[03:14:35] [Server thread/INFO]: AusAir issued server command: /tpa ________________
+[03:14:37] [Server thread/INFO]: AusAir issued server command: /accept
+[03:14:39] [Async Chat Thread - #2/INFO]: <AusAir> accept[m
+
+[03:14:40] [Async Chat Thread - #2/INFO]: <AusAir> accept[m
+
+[03:14:43] [Async Chat Thread - #2/INFO]: <________________> me?[m
+
+[03:14:45] [Async Chat Thread - #2/INFO]: <AusAir> yep[m
+
+[03:14:49] [Async Chat Thread - #2/INFO]: <________________> nah[m
+
+[03:14:53] [Async Chat Thread - #2/INFO]: <AusAir> i have nothing[m
+
+[03:14:57] [Async Chat Thread - #2/INFO]: <AusAir> but 10 bread[m
+
+[03:15:07] [Server thread/INFO]: ________________ issued server command: /home 2
+[03:15:09] [Server thread/INFO]: AusAir issued server command: /tpa ________________
+[03:15:18] [Server thread/INFO]: ________________ issued server command: /tpahere ausair
+[03:15:34] [Server thread/INFO]: AusAir issued server command: /tpaccept
+[03:15:48] [Async Chat Thread - #2/INFO]: <________________> well well well[m
+
+[03:15:54] [Async Chat Thread - #2/INFO]: <AusAir> i maybe was lying[m
+
+[03:15:54] [Server thread/INFO]: black_lock_ash issued server command: /set home
+[03:15:56] [Async Chat Thread - #2/INFO]: <AusAir> about bread[m
+
+[03:15:57] [Async Chat Thread - #2/INFO]: <________________> bread[m
+
+[03:15:57] [Async Chat Thread - #2/INFO]: <AusAir> BUUT[m
+
+[03:16:02] [Server thread/INFO]: black_lock_ash issued server command: /help
+[03:16:10] [Async Chat Thread - #2/INFO]: <________________> ok[m
+
+[03:16:19] [Server thread/INFO]: black_lock_ash issued server command: /sethome
+[03:16:29] [Server thread/INFO]: black_lock_ash issued server command: /sethome ashlinhome
+[03:16:52] [Server thread/INFO]: BigDickPerson issued server command: /tpa AusAir
+[03:16:52] [Server thread/INFO]: Boon2 issued server command: /tp Boon2 0,0
+[03:16:52] [Server thread/INFO]: [Boon2: The entity UUID provided is in an invalid format]
+[03:16:53] [Server thread/INFO]: AusAir issued server command: /tpaccept
+[03:16:55] [Craft Scheduler Thread - 26/INFO]: [Metrics] Connection refused
+[03:16:57] [Server thread/INFO]: Boon2 issued server command: /tp 0,0
+[03:16:57] [Server thread/INFO]: [Boon2: The entity UUID provided is in an invalid format]
+[03:17:05] [Async Chat Thread - #2/INFO]: <AusAir> puss[m
+
+[03:17:10] [Async Chat Thread - #2/INFO]: <________________> ez[m
+
+[03:17:10] [Async Chat Thread - #2/INFO]: <BigDickPerson> pussy[m
+
+[03:17:11] [Server thread/INFO]: Boon2 issued server command: /tp @s 0,0
+[03:17:11] [Server thread/INFO]: [Boon2: The entity UUID provided is in an invalid format]
+[03:17:14] [Async Chat Thread - #2/INFO]: <________________> ez[m
+
+[03:17:21] [Server thread/INFO]: BigDickPerson issued server command: /home newhome
+[03:17:30] [Async Chat Thread - #2/INFO]: <AusAir> do u have tha prot 1 or prot 4[m
+
+[03:17:33] [Server thread/INFO]: AusAir issued server command: /tpa BigDickPerson
+[03:17:40] [Async Chat Thread - #2/INFO]: <________________> who knows[m
+
+[03:17:41] [Server thread/INFO]: Boon2 issued server command: /tp Boon2 0 0
+[03:17:41] [Server thread/INFO]: [Boon2: 'Boon2' is not a valid number]
+[03:17:43] [Server thread/INFO]: BigDickPerson issued server command: /accept
+[03:17:51] [Server thread/INFO]: black_lock_ash issued server command: /tpa BigDickPerson
+[03:17:55] [Async Chat Thread - #2/INFO]: <Boon2> who is close to spawn[m
+
+[03:18:00] [Async Chat Thread - #2/INFO]: <________________> me[m
+
+[03:18:00] [Async Chat Thread - #2/INFO]: <Boon2> pls let me tp[m
+
+[03:18:05] [Async Chat Thread - #2/INFO]: <________________> sure[m
+
+[03:18:08] [Server thread/INFO]: Boon2 issued server command: /tp ________________
+[03:18:08] [Server thread/INFO]: [Boon2: Teleported Boon2 to ________________]
+[03:18:18] [Server thread/INFO]: Mr_Hugs issued server command: /tpa boon2
+[03:18:32] [Async Chat Thread - #2/INFO]: <black_lock_ash> uhh can somone tp me outside[m
+
+[03:18:33] [Server thread/INFO]: Boon2 issued server command: /tpaccept
+[03:18:38] [Server thread/INFO]: BigDickPerson issued server command: /home netherportal
+[03:18:41] [Server thread/INFO]: AusAir issued server command: /tpa BigDickPerson
+[03:18:44] [Server thread/INFO]: BigDickPerson issued server command: /accept
+[03:18:50] [Server thread/INFO]: ________________ issued server command: /home nether
+[03:18:51] [Server thread/INFO]: Boon2 issued server command: /
+[03:18:53] [Server thread/INFO]: AusAir has just earned the achievement [We Need to Go Deeper]
+[03:18:54] [Server thread/INFO]: Boon2 lost connection: Disconnected
+[03:18:54] [Server thread/INFO]: Boon2 left the game.
+[03:19:04] [Thread-26/INFO]: UUID of player Boon2 is d1a4580a-7037-33c8-b674-e6cfff3cc04a
+[03:19:04] [Server thread/INFO]: Boon2[/[0:0:0:0:0:0:0:1]:33994] logged in with entity id 17441 at ([world]-220.0, 64.0, 188.0)
+[03:19:08] [Server thread/INFO]: Boon2 lost connection: Disconnected
+[03:19:08] [Server thread/INFO]: Boon2 left the game.
+[03:19:24] [Thread-27/INFO]: UUID of player Noob is 1007a47e-a459-3b5f-ae4c-edac796137db
+[03:19:24] [Server thread/INFO]: Noob[/[0:0:0:0:0:0:0:1]:38952] logged in with entity id 17920 at ([world]-220.0, 64.0, 188.0)
+[03:19:26] [Server thread/INFO]: Noob lost connection: Disconnected
+[03:19:26] [Server thread/INFO]: Noob left the game.
+[03:19:30] [Thread-28/INFO]: UUID of player Noob is 1007a47e-a459-3b5f-ae4c-edac796137db
+[03:19:30] [Server thread/INFO]: Noob[/[0:0:0:0:0:0:0:1]:38954] logged in with entity id 17969 at ([world]-220.0, 64.0, 188.0)
+[03:19:31] [Server thread/INFO]: Noob lost connection: Disconnected
+[03:19:31] [Server thread/INFO]: Noob left the game.
+[03:19:35] [Thread-29/INFO]: UUID of player Noob is 1007a47e-a459-3b5f-ae4c-edac796137db
+[03:19:35] [Server thread/INFO]: Noob[/[0:0:0:0:0:0:0:1]:56238] logged in with entity id 18004 at ([world]-220.0, 64.0, 188.0)
+[03:19:38] [Server thread/INFO]: Noob lost connection: Disconnected
+[03:19:38] [Server thread/INFO]: Noob left the game.
+[03:19:42] [Thread-30/INFO]: UUID of player Noob is 1007a47e-a459-3b5f-ae4c-edac796137db
+[03:19:42] [Server thread/INFO]: Noob[/[0:0:0:0:0:0:0:1]:56242] logged in with entity id 18016 at ([world]-220.0, 64.0, 188.0)
+[03:19:43] [Async Chat Thread - #3/INFO]: <black_lock_ash> can someone tp me outside[m
+
+[03:19:54] [Server thread/INFO]: Mr_Hugs issued server command: /yep send me a tpa
+[03:19:59] [Async Chat Thread - #3/INFO]: <Mr_Hugs> yep send me a tpa[m
+
+[03:20:11] [Server thread/INFO]: black_lock_ash issued server command: /tpa Mr_Hugs
+[03:20:19] [Server thread/INFO]: Mr_Hugs issued server command: /tpaccept
+[03:20:26] [Server thread/INFO]: black_lock_ash was slain by Mr_Hugs
+[03:20:26] [Server thread/INFO]: Noob issued server command: /tell black_lock_ash DONT TP
+[03:20:33] [Server thread/INFO]: AusAir issued server command: /tpa b
+[03:20:35] [Async Chat Thread - #3/INFO]: <________________> L[m
+
+[03:20:41] [Async Chat Thread - #3/INFO]: <Mr_Hugs> L[m
+
+[03:20:42] [Server thread/INFO]: AusAir issued server command: /tpa black_lock_ash
+[03:20:45] [Server thread/INFO]: AusAir issued server command: /tpa black_lock_ash
+[03:20:51] [Server thread/INFO]: BigDickPerson issued server command: /home iamcool
+[03:21:01] [Server thread/INFO]: AusAir issued server command: /tpa BigDickPerson
+[03:21:04] [Server thread/INFO]: black_lock_ash lost connection: Disconnected
+[03:21:04] [Server thread/INFO]: black_lock_ash left the game.
+[03:21:09] [Server thread/INFO]: BigDickPerson issued server command: /accept
+[03:21:45] [Server thread/INFO]: Noob issued server command: /tpa Mr_Hugs
+[03:21:49] [Server thread/INFO]: Mr_Hugs issued server command: /tpaccept
+[03:22:10] [Server thread/INFO]: Noob has just earned the achievement [Into Fire]
+[03:22:12] [Server thread/INFO]: Noob issued server command: /home below
+[03:22:15] [Server thread/INFO]: Noob issued server command: /home below
+[03:22:21] [Async Chat Thread - #4/INFO]: <BigDickPerson> who broke the enchant table[m
+
+[03:22:24] [Server thread/INFO]: Noob issued server command: /home below
+[03:22:35] [Async Chat Thread - #4/INFO]: <________________> me[m
+
+[03:22:42] [Async Chat Thread - #4/INFO]: <BigDickPerson> fuck you rhys[m
+
+[03:22:45] [Server thread/INFO]: Mr_Hugs issued server command: /tpa noob
+[03:22:51] [Server thread/INFO]: Noob issued server command: /tpdeny
+[03:23:00] [Async Chat Thread - #4/INFO]: <________________> idk even know who u r[m
+
+[03:23:08] [Thread-31/INFO]: UUID of player RedJumper is 42acf53f-b289-361c-a9a0-b43a5ea8b8d0
+[03:23:08] [Server thread/INFO]: RedJumper[/[0:0:0:0:0:0:0:1]:52810] logged in with entity id 19921 at ([world]-220.0, 64.0, 188.0)
+[03:23:11] [Server thread/INFO]: RedJumper lost connection: Disconnected
+[03:23:11] [Server thread/INFO]: RedJumper left the game.
+[03:23:13] [Thread-32/INFO]: UUID of player RedJumper is 42acf53f-b289-361c-a9a0-b43a5ea8b8d0
+[03:23:13] [Server thread/INFO]: RedJumper[/[0:0:0:0:0:0:0:1]:44352] logged in with entity id 19958 at ([world]-220.0, 64.0, 188.0)
+[03:23:15] [Server thread/INFO]: RedJumper lost connection: Disconnected
+[03:23:15] [Server thread/INFO]: RedJumper left the game.
+[03:23:15] [Server thread/INFO]: Mr_Hugs lost connection: Disconnected
+[03:23:15] [Server thread/INFO]: Mr_Hugs left the game.
+[03:23:18] [Server thread/INFO]: Noob lost connection: Disconnected
+[03:23:18] [Server thread/INFO]: Noob left the game.
+[03:23:18] [Thread-33/INFO]: UUID of player RedJumper is 42acf53f-b289-361c-a9a0-b43a5ea8b8d0
+[03:23:18] [Server thread/INFO]: RedJumper[/[0:0:0:0:0:0:0:1]:44364] logged in with entity id 19973 at ([world]-220.0, 64.0, 188.0)
+[03:23:26] [Async Chat Thread - #4/INFO]: <BigDickPerson> monkey[m
+
+[03:23:28] [Thread-34/INFO]: UUID of player Mr_Hugs is d9e61b9d-9b8c-325f-b3a7-ca4fc3111270
+[03:23:28] [Server thread/INFO]: Mr_Hugs[/[0:0:0:0:0:0:0:1]:40262] logged in with entity id 20110 at ([world]-220.0, 64.0, 188.0)
+[03:23:31] [Server thread/INFO]: RedJumper issued server command: /tpa Mr_Hugs
+[03:23:34] [Server thread/INFO]: Mr_Hugs lost connection: Disconnected
+[03:23:34] [Server thread/INFO]: Mr_Hugs left the game.
+[03:23:37] [Thread-35/INFO]: UUID of player Mr_Hugs is d9e61b9d-9b8c-325f-b3a7-ca4fc3111270
+[03:23:37] [Server thread/INFO]: Mr_Hugs[/[0:0:0:0:0:0:0:1]:35658] logged in with entity id 20291 at ([world]-220.0, 64.0, 188.0)
+[03:23:52] [Server thread/INFO]: RedJumper issued server command: /tpa Mr_Hugs
+[03:24:02] [Server thread/INFO]: ________________ lost connection: Disconnected
+[03:24:02] [Server thread/INFO]: ________________ left the game.
+[03:24:05] [Server thread/INFO]: Mr_Hugs issued server command: /tpaccept
+[03:24:07] [Server thread/INFO]: AusAir issued server command: /tpa Mr_Hugs
+[03:24:21] [Server thread/INFO]: RedJumper burned to death
+[03:24:25] [Server thread/INFO]: RedJumper issued server command: /back
+[03:24:25] [Async Chat Thread - #4/INFO]: <Mr_Hugs> that was ranen[m
+
+[03:24:30] [Async Chat Thread - #4/INFO]: <Mr_Hugs> im so sorry[m
+
+[03:24:31] [Async Chat Thread - #4/INFO]: <RedJumper> liar[m
+
+[03:24:47] [Async Chat Thread - #4/INFO]: <AusAir> Mr_Hugs[m
+
+[03:24:50] [Async Chat Thread - #4/INFO]: <AusAir> accept[m
+
+[03:24:51] [Async Chat Thread - #4/INFO]: <AusAir> surel[m
+
+[03:24:57] [Server thread/INFO]: RedJumper burned to death
+[03:25:00] [Server thread/INFO]: Mr_Hugs issued server command: /tpaccept
+[03:25:03] [Server thread/INFO]: RedJumper issued server command: /back
+[03:25:11] [Server thread/INFO]: Mr_Hugs issued server command: /tpa AusAir
+[03:25:17] [Server thread/INFO]: Mr_Hugs issued server command: /ho
+[03:25:25] [Server thread/INFO]: RedJumper burned to death
+[03:25:29] [Server thread/INFO]: RedJumper issued server command: /back
+[03:25:43] [Server thread/INFO]: Mr_Hugs issued server command: /tpa AusAir
+[03:25:47] [Async Chat Thread - #4/INFO]: <Mr_Hugs> accept[m
+
+[03:25:55] [Server thread/INFO]: BigDickPerson issued server command: /home netherprtal
+[03:25:56] [Server thread/INFO]: AusAir issued server command: /tpaccept
+[03:26:05] [Server thread/WARN]: Mr_Hugs moved wrongly!
+[03:26:06] [Server thread/WARN]: Mr_Hugs moved wrongly!
+[03:26:09] [Server thread/INFO]: RedJumper was slain by Zombie
+[03:26:25] [Server thread/INFO]: BigDickPerson issued server command: /tpa AusAir
+[03:26:28] [Server thread/INFO]: AusAir issued server command: /tpaccept
+[03:26:35] [Thread-36/INFO]: UUID of player Noob is 1007a47e-a459-3b5f-ae4c-edac796137db
+[03:26:35] [Server thread/INFO]: Noob[/[0:0:0:0:0:0:0:1]:53530] logged in with entity id 20934 at ([world]-220.0, 64.0, 188.0)
+[03:26:43] [Server thread/INFO]: BigDickPerson was burnt to a crisp whilst fighting Mr_Hugs
+[03:26:48] [Server thread/INFO]: BigDickPerson issued server command: /back
+[03:26:55] [Craft Scheduler Thread - 35/INFO]: [Metrics] Connection refused
+[03:27:06] [Server thread/INFO]: BigDickPerson issued server command: /home newhome
+[03:27:09] [Server thread/INFO]: AusAir was slain by Mr_Hugs
+[03:27:11] [Server thread/INFO]: RedJumper issued server command: /tpa Mr_Hugs
+[03:27:15] [Server thread/INFO]: AusAir issued server command: /back
+[03:27:16] [Thread-37/INFO]: UUID of player ________________ is 309ab0c3-587c-3840-b643-a966d8825fb7
+[03:27:16] [Server thread/INFO]: ________________[/[0:0:0:0:0:0:0:1]:46222] logged in with entity id 22319 at ([world]-220.0, 64.0, 188.0)
+[03:27:23] [Async Chat Thread - #5/INFO]: <BigDickPerson> im sorry hugo[m
+
+[03:27:27] [Async Chat Thread - #5/INFO]: <Mr_Hugs> bro really thought he could drop me[m
+
+[03:27:28] [Server thread/INFO]: AusAir was slain by Mr_Hugs
+[03:27:33] [Server thread/INFO]: AusAir issued server command: /bak
+[03:27:33] [Server thread/INFO]: AusAir issued server command: /bak
+[03:27:35] [Server thread/INFO]: AusAir issued server command: /back
+[03:27:41] [Server thread/INFO]: BigDickPerson issued server command: /tpa AusAir
+[03:27:46] [Server thread/INFO]: AusAir issued server command: /accept
+[03:27:47] [Server thread/INFO]: AusAir was slain by Mr_Hugs
+[03:27:56] [Server thread/INFO]: AusAir issued server command: /back
+[03:28:04] [Server thread/INFO]: AusAir was slain by Mr_Hugs
+[03:28:08] [Server thread/INFO]: AusAir issued server command: /back
+[03:28:11] [Server thread/INFO]: BigDickPerson issued server command: /tpa AusAir
+[03:28:13] [Server thread/INFO]: AusAir issued server command: /tpaccept
+[03:28:14] [Server thread/INFO]: AusAir issued server command: /tpaccept
+[03:28:14] [Server thread/INFO]: AusAir was slain by Mr_Hugs
+[03:28:17] [Server thread/INFO]: AusAir issued server command: /back
+[03:28:21] [Server thread/INFO]: BigDickPerson issued server command: /home newhome
+[03:28:21] [Server thread/INFO]: AusAir issued server command: /back
+[03:28:23] [Server thread/INFO]: RedJumper issued server command: /back
+[03:28:26] [Server thread/INFO]: BigDickPerson issued server command: /home newhome
+[03:28:27] [Server thread/INFO]: AusAir was slain by Mr_Hugs
+[03:28:32] [Server thread/INFO]: AusAir issued server command: /back
+[03:28:33] [Async Chat Thread - #6/INFO]: <________________> what is happening[m
+
+[03:28:36] [Server thread/INFO]: BigDickPerson issued server command: /home newhome
+[03:28:49] [Server thread/INFO]: RedJumper issued server command: /tpa Noob
+[03:29:07] [Server thread/INFO]: BigDickPerson issued server command: /tpa AusAir
+[03:29:09] [Server thread/INFO]: AusAir issued server command: /tpaccept
+[03:29:18] [Server thread/INFO]: AusAir burned to death
+[03:29:22] [Server thread/INFO]: AusAir issued server command: /back
+[03:29:23] [Server thread/INFO]: BigDickPerson issued server command: /tpa AusAir
+[03:29:28] [Server thread/INFO]: AusAir issued server command: /tpaccept
+[03:29:31] [Server thread/INFO]: AusAir was slain by Mr_Hugs
+[03:29:35] [Server thread/INFO]: AusAir issued server command: /back
+[03:29:39] [Server thread/INFO]: BigDickPerson issued server command: /tpa AusAir
+[03:29:46] [Server thread/INFO]: AusAir was burnt to a crisp whilst fighting Mr_Hugs
+[03:29:49] [Server thread/INFO]: AusAir issued server command: /back
+[03:30:01] [Server thread/INFO]: BigDickPerson issued server command: /tpa AusAir
+[03:30:06] [Server thread/INFO]: AusAir issued server command: /accept
+[03:30:20] [Server thread/INFO]: BigDickPerson issued server command: /tpa AusAir
+[03:30:21] [Server thread/INFO]: AusAir issued server command: /accept
+[03:30:31] [Server thread/INFO]: AusAir issued server command: /tpaccept
+[03:30:32] [Server thread/INFO]: BigDickPerson issued server command: /home newhome
+[03:30:32] [Server thread/INFO]: AusAir issued server command: /tpaccept
+[03:30:33] [Server thread/INFO]: AusAir issued server command: /tpaccept
+[03:30:43] [Server thread/INFO]: Mr_Hugs issued server command: /tpaccept
+[03:30:58] [Server thread/INFO]: RedJumper issued server command: /seed
+[03:31:20] [Server thread/INFO]: Mr_Hugs lost connection: Disconnected
+[03:31:20] [Server thread/INFO]: Mr_Hugs left the game.
+[03:31:29] [Server thread/INFO]: BigDickPerson lost connection: Disconnected
+[03:31:29] [Server thread/INFO]: BigDickPerson left the game.
+[03:31:36] [Server thread/INFO]: AusAir lost connection: Disconnected
+[03:31:36] [Server thread/INFO]: AusAir left the game.
+[03:32:03] [Server thread/INFO]: RedJumper has just earned the achievement [Cow Tipper]
+[03:32:27] [Server thread/INFO]: ________________ issued server command: /delhome nether2
+[03:32:33] [Server thread/INFO]: ________________ issued server command: /sethome nether2
+[03:32:58] [Server thread/INFO]: RedJumper issued server command: /home nether
+[03:33:47] [Server thread/INFO]: Noob issued server command: /home farm
+[03:34:04] [Server thread/INFO]: Noob issued server command: /home below
+[03:34:10] [Server thread/INFO]: Noob lost connection: Disconnected
+[03:34:10] [Server thread/INFO]: Noob left the game.
+[03:34:16] [Thread-39/INFO]: UUID of player Fvarvendik is 190b9306-f00c-3af1-af78-2ef933642e27
+[03:34:16] [Server thread/INFO]: Fvarvendik[/[0:0:0:0:0:0:0:1]:39274] logged in with entity id 26247 at ([world]-220.0, 64.0, 188.0)
+[03:34:39] [Server thread/INFO]: Fvarvendik suffocated in a wall
+[03:34:45] [Server thread/INFO]: Fvarvendik issued server command: /home spawn
+[03:34:58] [Server thread/INFO]: Fvarvendik lost connection: Disconnected
+[03:34:58] [Server thread/INFO]: Fvarvendik left the game.
+[03:34:58] [Server thread/INFO]: RedJumper fell from a high place
+[03:35:06] [Thread-40/INFO]: UUID of player Mr_Hugs is d9e61b9d-9b8c-325f-b3a7-ca4fc3111270
+[03:35:06] [Server thread/INFO]: Mr_Hugs[/[0:0:0:0:0:0:0:1]:60460] logged in with entity id 29096 at ([world]-220.0, 64.0, 188.0)
+[03:35:23] [Server thread/INFO]: Mr_Hugs issued server command: /tpa RedJumper
+[03:35:29] [Server thread/INFO]: RedJumper issued server command: /tpaccept
+[03:35:32] [Server thread/INFO]: Mr_Hugs lost connection: Disconnected
+[03:35:32] [Server thread/INFO]: Mr_Hugs left the game.
+[03:35:41] [Thread-41/INFO]: UUID of player Mr_Hugs is d9e61b9d-9b8c-325f-b3a7-ca4fc3111270
+[03:35:41] [Server thread/INFO]: Mr_Hugs[/[0:0:0:0:0:0:0:1]:41782] logged in with entity id 30758 at ([world]-220.0, 64.0, 188.0)
+[03:35:53] [Server thread/INFO]: Mr_Hugs issued server command: /tpa RedJumper
+[03:35:55] [Server thread/INFO]: RedJumper issued server command: /back
+[03:35:58] [Server thread/INFO]: RedJumper issued server command: /tpaccept
+[03:36:23] [Async Chat Thread - #7/INFO]: <RedJumper> my other stuff too[m
+
+[03:36:34] [Thread-42/INFO]: UUID of player Boy_of_hammy is acfa33b0-a949-32ca-a37b-15400cc2276a
+[03:36:34] [Server thread/INFO]: Boy_of_hammy[/[0:0:0:0:0:0:0:1]:54352] logged in with entity id 31730 at ([world]-220.0, 64.0, 188.0)
+[03:36:34] [Server thread/INFO]: Boy_of_hammy lost connection: Disconnected
+[03:36:34] [Server thread/INFO]: Boy_of_hammy left the game.
+[03:36:38] [Thread-43/INFO]: UUID of player Boy_of_hammy is acfa33b0-a949-32ca-a37b-15400cc2276a
+[03:36:38] [Server thread/INFO]: Boy_of_hammy[/[0:0:0:0:0:0:0:1]:54358] logged in with entity id 31808 at ([world]-220.0, 64.0, 188.0)
+[03:36:55] [Craft Scheduler Thread - 38/INFO]: [Metrics] Connection refused
+[03:36:56] [Server thread/INFO]: Boy_of_hammy has just earned the achievement [Getting Wood]
+[03:36:56] [Server thread/INFO]: RedJumper issued server command: /tpa Boy_of_hammmy
+[03:36:57] [Server thread/INFO]: RedJumper was slain by Mr_Hugs
+[03:37:06] [Async Chat Thread - #7/INFO]: <RedJumper> what is wrong with you[m
+
+[03:37:15] [Async Chat Thread - #7/INFO]: <________________> nah hugo is on a rampage[m
+
+[03:37:23] [Server thread/INFO]: Boy_of_hammy lost connection: Disconnected
+[03:37:23] [Server thread/INFO]: Boy_of_hammy left the game.
+[03:37:28] [Async Chat Thread - #7/INFO]: <Mr_Hugs> i dropped my sword, coudnt let you have it[m
+
+[03:37:37] [Async Chat Thread - #7/INFO]: <Mr_Hugs> just /back[m
+
+[03:37:42] [Server thread/INFO]: RedJumper issued server command: /back
+[03:37:43] [Async Chat Thread - #7/INFO]: <Mr_Hugs> ill give u ur stuff[m
+
+[03:38:00] [Async Chat Thread - #7/INFO]: <________________> I need 4 more levels[m
+
+[03:38:07] [Server thread/INFO]: RedJumper issued server command: /tpa ________________
+[03:38:09] [Async Chat Thread - #7/INFO]: <________________> until sharp 5 fire 2[m
+
+[03:38:17] [Async Chat Thread - #7/INFO]: <________________> why u wanna tp?[m
+
+[03:38:26] [Async Chat Thread - #7/INFO]: <Mr_Hugs> ty[m
+
+[03:38:34] [Async Chat Thread - #7/INFO]: <RedJumper> just get me out of here pls[m
+
+[03:38:37] [Server thread/INFO]: ________________ lost connection: Disconnected
+[03:38:37] [Server thread/INFO]: ________________ left the game.
+[03:38:52] [Server thread/INFO]: Mr_Hugs lost connection: Disconnected
+[03:38:52] [Server thread/INFO]: Mr_Hugs left the game.
+[03:38:53] [Server thread/INFO]: RedJumper lost connection: Disconnected
+[03:38:53] [Server thread/INFO]: RedJumper left the game.
+[03:45:51] [Thread-44/INFO]: UUID of player allahu_akbar is 04db078e-f20e-3fb3-85b9-a34c761e6b80
+[03:45:51] [Server thread/INFO]: allahu_akbar[/[0:0:0:0:0:0:0:1]:46206] logged in with entity id 32252 at ([world]-220.0, 64.0, 188.0)
+[03:46:55] [Craft Scheduler Thread - 41/INFO]: [Metrics] Connection refused
+[03:50:38] [Server thread/INFO]: allahu_akbar issued server command: /homes
+[03:51:24] [Thread-45/INFO]: UUID of player Noob is 1007a47e-a459-3b5f-ae4c-edac796137db
+[03:51:25] [Server thread/INFO]: Noob[/[0:0:0:0:0:0:0:1]:46940] logged in with entity id 35513 at ([world]-220.0, 64.0, 188.0)
+[03:51:25] [Server thread/INFO]: allahu_akbar issued server command: /homes
+[03:51:30] [Server thread/INFO]: allahu_akbar issued server command: /delhome vil
+[03:51:32] [Server thread/INFO]: allahu_akbar issued server command: /sethome s
+[03:51:38] [Server thread/INFO]: allahu_akbar lost connection: Disconnected
+[03:51:38] [Server thread/INFO]: allahu_akbar left the game.
+[03:51:48] [Thread-46/INFO]: UUID of player allahu_akbar3333 is f0eec1af-c073-3beb-adfb-4137b01e9be6
+[03:51:48] [Server thread/INFO]: allahu_akbar3333[/[0:0:0:0:0:0:0:1]:42152] logged in with entity id 36142 at ([world]-220.0, 64.0, 188.0)
+[03:51:48] [Craft Scheduler Thread - 45/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[03:51:48] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[03:52:02] [Server thread/INFO]: Noob issued server command: /back
+[03:52:32] [Server thread/INFO]: allahu_akbar3333 has just earned the achievement [Taking Inventory]
+[03:52:37] [Server thread/INFO]: Banned player allahu_akbar333
+[03:52:46] [Server thread/INFO]: allahu_akbar3333 lost connection: Disconnected
+[03:52:46] [Server thread/INFO]: allahu_akbar3333 left the game.
+[03:52:55] [Thread-47/INFO]: UUID of player allahu_akbar is 04db078e-f20e-3fb3-85b9-a34c761e6b80
+[03:52:55] [Server thread/INFO]: allahu_akbar[/[0:0:0:0:0:0:0:1]:34630] logged in with entity id 36372 at ([world]-220.0, 64.0, 188.0)
+[03:52:56] [Server thread/INFO]: Banned player allahu_akbar3333
+[03:53:06] [Server thread/INFO]: allahu_akbar issued server command: /home et
+[03:53:39] [Server thread/INFO]: Noob issued server command: /homes
+[03:53:43] [Server thread/INFO]: allahu_akbar issued server command: /tpa Noob
+[03:53:54] [Server thread/INFO]: Noob issued server command: /tpdeny
+[03:54:02] [Server thread/INFO]: allahu_akbar issued server command: /homes
+[03:54:05] [Server thread/INFO]: Noob lost connection: Disconnected
+[03:54:05] [Server thread/INFO]: Noob left the game.
+[03:54:09] [Server thread/INFO]: allahu_akbar lost connection: Disconnected
+[03:54:09] [Server thread/INFO]: allahu_akbar left the game.
+[03:54:19] [Thread-48/INFO]: UUID of player allahu_akbar184u is 7df2ed86-e481-3d08-8966-4901e965ec66
+[03:54:19] [Server thread/INFO]: allahu_akbar184u[/[0:0:0:0:0:0:0:1]:52866] logged in with entity id 36754 at ([world]-220.0, 64.0, 188.0)
+[03:54:19] [Craft Scheduler Thread - 49/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[03:54:19] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[03:54:53] [Thread-49/INFO]: UUID of player Noob is 1007a47e-a459-3b5f-ae4c-edac796137db
+[03:54:53] [Server thread/INFO]: Noob[/[0:0:0:0:0:0:0:1]:54190] logged in with entity id 38350 at ([world]-220.0, 64.0, 188.0)
+[03:54:55] [Server thread/INFO]: Noob lost connection: Disconnected
+[03:54:55] [Server thread/INFO]: Noob left the game.
+[03:54:58] [Server thread/INFO]: allahu_akbar184u was slain by Zombie
+[03:55:09] [Thread-50/INFO]: UUID of player Noob is 1007a47e-a459-3b5f-ae4c-edac796137db
+[03:55:09] [Server thread/INFO]: Noob[/[0:0:0:0:0:0:0:1]:43384] logged in with entity id 39501 at ([world]-220.0, 64.0, 188.0)
+[03:55:14] [Server thread/INFO]: Noob lost connection: Disconnected
+[03:55:14] [Server thread/INFO]: Noob left the game.
+[03:55:17] [Thread-51/INFO]: UUID of player Noob is 1007a47e-a459-3b5f-ae4c-edac796137db
+[03:55:18] [Server thread/INFO]: Noob[/[0:0:0:0:0:0:0:1]:57314] logged in with entity id 39930 at ([world]-220.0, 64.0, 188.0)
+[03:55:25] [Server thread/INFO]: Noob issued server command: /tpa allahu_akbar184u
+[03:55:27] [Server thread/INFO]: allahu_akbar184u issued server command: /tpaccept
+[03:55:35] [Server thread/INFO]: allahu_akbar184u lost connection: Disconnected
+[03:55:35] [Server thread/INFO]: allahu_akbar184u left the game.
+[03:55:41] [Server thread/INFO]: Noob issued server command: /home base
+[03:55:44] [Thread-52/INFO]: UUID of player allahu_akbar is 04db078e-f20e-3fb3-85b9-a34c761e6b80
+[03:55:44] [Server thread/INFO]: allahu_akbar[/[0:0:0:0:0:0:0:1]:52026] logged in with entity id 40687 at ([world]-220.0, 64.0, 188.0)
+[03:55:51] [Server thread/INFO]: allahu_akbar issued server command: /tpa Noob
+[03:56:16] [Server thread/INFO]: Noob issued server command: /tpaccept
+[03:56:46] [Server thread/INFO]: allahu_akbar issued server command: /trade noob
+[03:56:56] [Craft Scheduler Thread - 52/INFO]: [Metrics] Connection refused
+[03:57:12] [Server thread/INFO]: Noob issued server command: /home below
+[03:57:35] [Server thread/INFO]: Noob issued server command: /
+[03:57:44] [Server thread/INFO]: Noob lost connection: Disconnected
+[03:57:44] [Server thread/INFO]: Noob left the game.
+[04:01:28] [Server thread/INFO]: allahu_akbar issued server command: /home et
+[04:02:15] [Server thread/INFO]: allahu_akbar lost connection: Disconnected
+[04:02:15] [Server thread/INFO]: allahu_akbar left the game.
+[04:06:56] [Craft Scheduler Thread - 53/INFO]: [Metrics] Connection refused
+[04:16:56] [Craft Scheduler Thread - 55/INFO]: [Metrics] Connection refused
+[04:22:58] [Thread-54/INFO]: UUID of player mashallah___ is ba58735c-9afb-3a6d-a0b0-32378a1ce45e
+[04:22:58] [Server thread/INFO]: mashallah___[/[0:0:0:0:0:0:0:1]:44548] logged in with entity id 43340 at ([world]-220.0, 64.0, 188.0)
+[04:23:09] [Thread-55/INFO]: UUID of player black_lock_ash is fdc65351-a72f-3a4f-954a-174adeeface2
+[04:23:09] [Server thread/INFO]: black_lock_ash[/[0:0:0:0:0:0:0:1]:36766] logged in with entity id 43874 at ([world]-220.0, 64.0, 188.0)
+[04:23:25] [Thread-56/INFO]: UUID of player Mr_Hugs is d9e61b9d-9b8c-325f-b3a7-ca4fc3111270
+[04:23:25] [Server thread/INFO]: Mr_Hugs[/[0:0:0:0:0:0:0:1]:37344] logged in with entity id 44117 at ([world]-220.0, 64.0, 188.0)
+[04:23:33] [Server thread/INFO]: black_lock_ash lost connection: Disconnected
+[04:23:33] [Server thread/INFO]: black_lock_ash left the game.
+[04:23:38] [Thread-57/INFO]: UUID of player black_lock_ash is fdc65351-a72f-3a4f-954a-174adeeface2
+[04:23:38] [Server thread/INFO]: black_lock_ash[/[0:0:0:0:0:0:0:1]:44640] logged in with entity id 44231 at ([world]-220.0, 64.0, 188.0)
+[04:23:54] [Server thread/INFO]: Mr_Hugs lost connection: Disconnected
+[04:23:54] [Server thread/INFO]: Mr_Hugs left the game.
+[04:24:08] [Server thread/INFO]: black_lock_ash lost connection: Disconnected
+[04:24:08] [Server thread/INFO]: black_lock_ash left the game.
+[04:24:11] [Thread-58/INFO]: UUID of player Mr_Hugs is d9e61b9d-9b8c-325f-b3a7-ca4fc3111270
+[04:24:11] [Thread-59/INFO]: UUID of player black_lock_ash is fdc65351-a72f-3a4f-954a-174adeeface2
+[04:24:12] [Server thread/INFO]: Mr_Hugs[/[0:0:0:0:0:0:0:1]:47226] logged in with entity id 44323 at ([world]-220.0, 64.0, 188.0)
+[04:24:12] [Server thread/INFO]: black_lock_ash[/[0:0:0:0:0:0:0:1]:47238] logged in with entity id 44324 at ([world]-220.0, 64.0, 188.0)
+[04:24:14] [Server thread/INFO]: black_lock_ash lost connection: Disconnected
+[04:24:14] [Server thread/INFO]: black_lock_ash left the game.
+[04:24:22] [Thread-60/INFO]: UUID of player black_lock_ash is fdc65351-a72f-3a4f-954a-174adeeface2
+[04:24:22] [Server thread/INFO]: black_lock_ash[/[0:0:0:0:0:0:0:1]:54252] logged in with entity id 44504 at ([world]-220.0, 64.0, 188.0)
+[04:24:26] [Thread-61/INFO]: UUID of player kitncake_12 is 09ab6883-926c-3c6b-b3b6-e6c85735fd58
+[04:24:26] [Server thread/INFO]: kitncake_12[/[0:0:0:0:0:0:0:1]:56002] logged in with entity id 44540 at ([world]-220.0, 64.0, 188.0)
+[04:24:29] [Server thread/INFO]: black_lock_ash issued server command: /log Ashlin2
+[04:24:35] [Server thread/INFO]: kitncake_12 lost connection: Disconnected
+[04:24:35] [Server thread/INFO]: kitncake_12 left the game.
+[04:24:43] [Server thread/INFO]: black_lock_ash issued server command: /tpa mashallah___
+[04:24:46] [Thread-62/INFO]: UUID of player kitncake_12 is 09ab6883-926c-3c6b-b3b6-e6c85735fd58
+[04:24:46] [Server thread/INFO]: kitncake_12[/[0:0:0:0:0:0:0:1]:57110] logged in with entity id 44622 at ([world]-220.0, 64.0, 188.0)
+[04:24:47] [Server thread/INFO]: mashallah___ issued server command: /tpaccept
+[04:25:01] [Thread-63/INFO]: UUID of player Destructive_Bob is ef566981-37a8-3e53-8425-b29b60b44d98
+[04:25:01] [Server thread/INFO]: Destructive_Bob[/[0:0:0:0:0:0:0:1]:33852] logged in with entity id 44685 at ([world]-220.0, 64.0, 188.0)
+[04:25:15] [Server thread/INFO]: Destructive_Bob lost connection: Disconnected
+[04:25:15] [Server thread/INFO]: Destructive_Bob left the game.
+[04:25:17] [Server thread/INFO]: kitncake_12 lost connection: Login timed out!
+[04:25:17] [Server thread/INFO]: kitncake_12 left the game.
+[04:25:17] [Server thread/WARN]: handleDisconnection() called twice
+[04:25:42] [Thread-64/INFO]: UUID of player kitncake_12 is 09ab6883-926c-3c6b-b3b6-e6c85735fd58
+[04:25:42] [Server thread/INFO]: kitncake_12[/[0:0:0:0:0:0:0:1]:32976] logged in with entity id 44757 at ([world]-219.30675223042155, 64.0, 188.97302190518073)
+[04:25:43] [Thread-65/INFO]: UUID of player Boy_of_hammy is acfa33b0-a949-32ca-a37b-15400cc2276a
+[04:25:43] [Server thread/INFO]: Boy_of_hammy[/[0:0:0:0:0:0:0:1]:32988] logged in with entity id 44759 at ([world]-220.0, 64.0, 188.0)
+[04:25:43] [Thread-66/INFO]: UUID of player Destructive_Bob is ef566981-37a8-3e53-8425-b29b60b44d98
+[04:25:43] [Server thread/INFO]: Destructive_Bob[/[0:0:0:0:0:0:0:1]:32996] logged in with entity id 44788 at ([world]-220.0, 64.0, 188.0)
+[04:25:55] [Server thread/INFO]: Destructive_Bob issued server command: /back
+[04:25:58] [Server thread/INFO]: kitncake_12 suffocated in a wall
+[04:26:12] [Thread-67/INFO]: UUID of player xXSam_PlayzXx is 0b5dc079-cb61-346d-9707-b32c594a2c10
+[04:26:12] [Server thread/INFO]: xXSam_PlayzXx[/[0:0:0:0:0:0:0:1]:55848] logged in with entity id 45286 at ([world]-220.0, 64.0, 188.0)
+[04:26:25] [Server thread/WARN]: xXSam_PlayzXx moved wrongly!
+[04:26:56] [Craft Scheduler Thread - 58/INFO]: [Metrics] Connection refused
+[04:26:56] [Server thread/INFO]: Destructive_Bob issued server command: /back
+[04:27:00] [Server thread/INFO]: kitncake_12 issued server command: /home sam
+[04:28:01] [Server thread/INFO]: Destructive_Bob issued server command: /kill
+[04:28:21] [Server thread/INFO]: Destructive_Bob lost connection: Disconnected
+[04:28:21] [Server thread/INFO]: Destructive_Bob left the game.
+[04:28:23] [Server thread/INFO]: Mr_Hugs issued server command: /tpa xXSam_PlayzXx
+[04:28:27] [Thread-68/INFO]: UUID of player Destructive_Bob is ef566981-37a8-3e53-8425-b29b60b44d98
+[04:28:27] [Server thread/INFO]: Destructive_Bob[/[0:0:0:0:0:0:0:1]:45972] logged in with entity id 45982 at ([world]-220.0, 64.0, 188.0)
+[04:28:29] [Server thread/INFO]: xXSam_PlayzXx issued server command: /tpdeny
+[04:28:58] [Server thread/INFO]: Destructive_Bob lost connection: Login timed out!
+[04:28:58] [Server thread/INFO]: Destructive_Bob left the game.
+[04:28:58] [Server thread/WARN]: handleDisconnection() called twice
+[04:29:03] [Thread-69/INFO]: UUID of player Destructive_Bob is ef566981-37a8-3e53-8425-b29b60b44d98
+[04:29:03] [Server thread/INFO]: Destructive_Bob[/[0:0:0:0:0:0:0:1]:59250] logged in with entity id 46203 at ([world]-220.0, 64.0, 188.0)
+[04:29:13] [Server thread/INFO]: Destructive_Bob lost connection: Disconnected
+[04:29:13] [Server thread/INFO]: Destructive_Bob left the game.
+[04:29:17] [Thread-70/INFO]: UUID of player Destructive_Bob is ef566981-37a8-3e53-8425-b29b60b44d98
+[04:29:17] [Server thread/INFO]: Destructive_Bob[/[0:0:0:0:0:0:0:1]:36668] logged in with entity id 46338 at ([world]-220.0, 64.0, 188.0)
+[04:29:28] [Server thread/INFO]: Mr_Hugs issued server command: /home secret
+[04:29:45] [Server thread/INFO]: Mr_Hugs issued server command: /home secret
+[04:29:55] [Server thread/INFO]: Mr_Hugs issued server command: /home secret
+[04:31:03] [Server thread/INFO]: Boy_of_hammy has just earned the achievement [Benchmarking]
+[04:31:08] [Async Chat Thread - #8/INFO]: <xXSam_PlayzXx> Shut up[m
+
+[04:31:18] [Server thread/INFO]: Destructive_Bob issued server command: /tpa xXSam_PlayzXx
+[04:31:27] [Server thread/INFO]: Mr_Hugs issued server command: /tpa kitncake_12
+[04:31:46] [Server thread/INFO]: kitncake_12 issued server command: /accept
+[04:31:50] [Server thread/INFO]: Boy_of_hammy lost connection: Disconnected
+[04:31:50] [Server thread/INFO]: Boy_of_hammy left the game.
+[04:32:02] [Server thread/INFO]: Destructive_Bob issued server command: /tpa kitncat_12
+[04:33:34] [Server thread/INFO]: Destructive_Bob issued server command: / kitncake_12
+[04:33:42] [Server thread/INFO]: Destructive_Bob issued server command: /tpa kitncake
+[04:34:10] [Thread-72/INFO]: UUID of player GooGod is ceb7ec37-9af8-38db-a4df-8a92df274dd4
+[04:34:10] [Server thread/INFO]: GooGod[/[0:0:0:0:0:0:0:1]:45578] logged in with entity id 51020 at ([world]-220.0, 64.0, 188.0)
+[04:34:10] [Craft Scheduler Thread - 63/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[04:34:10] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[04:34:21] [Server thread/INFO]: kitncake_12 issued server command: /accept
+[04:34:32] [Server thread/INFO]: GooGod lost connection: Disconnected
+[04:34:32] [Server thread/INFO]: GooGod left the game.
+[04:34:38] [Server thread/INFO]: xXSam_PlayzXx issued server command: /home abovehome
+[04:34:38] [Thread-73/INFO]: UUID of player GooGod is ceb7ec37-9af8-38db-a4df-8a92df274dd4
+[04:34:38] [Server thread/INFO]: GooGod[/[0:0:0:0:0:0:0:1]:45742] logged in with entity id 51624 at ([world]-220.0, 64.0, 188.0)
+[04:34:38] [Craft Scheduler Thread - 63/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[04:34:38] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[04:34:39] [Server thread/INFO]: GooGod lost connection: Disconnected
+[04:34:39] [Server thread/INFO]: GooGod left the game.
+[04:34:43] [Thread-74/INFO]: UUID of player GooGod is ceb7ec37-9af8-38db-a4df-8a92df274dd4
+[04:34:43] [Server thread/INFO]: GooGod[/[0:0:0:0:0:0:0:1]:34284] logged in with entity id 51627 at ([world]-220.0, 64.0, 188.0)
+[04:34:43] [Craft Scheduler Thread - 63/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[04:34:43] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[04:34:46] [Server thread/INFO]: Destructive_Bob was burnt to a crisp whilst fighting Mr_Hugs
+[04:34:53] [Server thread/INFO]: Destructive_Bob issued server command: /back
+[04:34:54] [Server thread/INFO]: GooGod lost connection: Disconnected
+[04:34:54] [Server thread/INFO]: GooGod left the game.
+[04:35:12] [Server thread/INFO]: Destructive_Bob issued server command: /home Sam's base
+[04:35:13] [Server thread/INFO]: xXSam_PlayzXx issued server command: /removehome abovebase
+[04:35:18] [Server thread/INFO]: Destructive_Bob issued server command: /home
+[04:35:20] [Server thread/INFO]: xXSam_PlayzXx issued server command: /removehome homebelow
+[04:35:28] [Server thread/INFO]: Destructive_Bob issued server command: /sethome Sam's Base
+[04:35:31] [Server thread/INFO]: xXSam_PlayzXx issued server command: /removehome homebelow
+[04:35:39] [Server thread/INFO]: Destructive_Bob burned to death
+[04:35:43] [Server thread/INFO]: Destructive_Bob issued server command: /back
+[04:36:06] [Thread-75/INFO]: UUID of player RedJumper is 42acf53f-b289-361c-a9a0-b43a5ea8b8d0
+[04:36:06] [Server thread/INFO]: RedJumper[/[0:0:0:0:0:0:0:1]:47214] logged in with entity id 51891 at ([world]-220.0, 64.0, 188.0)
+[04:36:07] [Server thread/INFO]: xXSam_PlayzXx issued server command: /removehome all
+[04:36:14] [Server thread/INFO]: xXSam_PlayzXx issued server command: /removeallhome
+[04:36:17] [Server thread/INFO]: RedJumper issued server command: /tpa Mr_Hugs
+[04:36:27] [Server thread/INFO]: Destructive_Bob was slain by Mr_Hugs
+[04:36:32] [Server thread/INFO]: RedJumper issued server command: /tpa Mr_Hugs
+[04:36:34] [Server thread/INFO]: RedJumper suffocated in a wall
+[04:36:41] [Server thread/INFO]: RedJumper issued server command: /back
+[04:36:56] [Craft Scheduler Thread - 65/INFO]: [Metrics] Connection refused
+[04:36:57] [Server thread/INFO]: RedJumper suffocated in a wall
+[04:37:15] [Server thread/INFO]: mashallah___ issued server command: /home sigmabase
+[04:37:19] [Server thread/INFO]: Destructive_Bob lost connection: Disconnected
+[04:37:19] [Server thread/INFO]: Destructive_Bob left the game.
+[04:37:44] [Server thread/INFO]: RedJumper issued server command: /back
+[04:38:31] [Server thread/INFO]: mashallah___ lost connection: Disconnected
+[04:38:31] [Server thread/INFO]: mashallah___ left the game.
+[04:38:32] [Server thread/INFO]: RedJumper issued server command: /tpa Mr_Hugs
+[04:39:26] [Thread-76/INFO]: UUID of player mashallah___ is ba58735c-9afb-3a6d-a0b0-32378a1ce45e
+[04:39:26] [Server thread/INFO]: mashallah___[/[0:0:0:0:0:0:0:1]:58704] logged in with entity id 54992 at ([world]-220.0, 64.0, 188.0)
+[04:39:42] [Server thread/INFO]: mashallah___ issued server command: /home farm
+[04:41:40] [Server thread/INFO]: RedJumper issued server command: /back
+[04:41:59] [Server thread/INFO]: Mr_Hugs issued server command: /tpa mashallah___
+[04:42:05] [Thread-77/INFO]: UUID of player BigDickPerson is 85934d56-958c-3627-8a8c-6d4be04fb46f
+[04:42:05] [Server thread/INFO]: BigDickPerson[/[0:0:0:0:0:0:0:1]:53788] logged in with entity id 56211 at ([world]-220.0, 64.0, 188.0)
+[04:42:23] [Server thread/INFO]: RedJumper issued server command: /tpa mashallah___
+[04:42:28] [Server thread/INFO]: BigDickPerson issued server command: /home mines
+[04:42:35] [Server thread/INFO]: BigDickPerson issued server command: /home netherportal
+[04:42:35] [Server thread/INFO]: BigDickPerson lost connection: Disconnected
+[04:42:35] [Server thread/INFO]: BigDickPerson left the game.
+[04:42:40] [Server thread/INFO]: mashallah___ issued server command: /home sigmabase
+[04:43:26] [Server thread/INFO]: xXSam_PlayzXx lost connection: Disconnected
+[04:43:26] [Server thread/INFO]: xXSam_PlayzXx left the game.
+[04:45:41] [Thread-78/INFO]: UUID of player xXSam_PlayzXx is 0b5dc079-cb61-346d-9707-b32c594a2c10
+[04:45:41] [Server thread/INFO]: xXSam_PlayzXx[/[0:0:0:0:0:0:0:1]:45898] logged in with entity id 57001 at ([world]-220.0, 64.0, 188.0)
+[04:46:13] [Server thread/INFO]: mashallah___ issued server command: /home far
+[04:46:17] [Server thread/INFO]: mashallah___ issued server command: /home farm
+[04:46:24] [Thread-79/INFO]: UUID of player BigDickPerson is 85934d56-958c-3627-8a8c-6d4be04fb46f
+[04:46:24] [Server thread/INFO]: BigDickPerson[/[0:0:0:0:0:0:0:1]:46178] logged in with entity id 57424 at ([world]-220.0, 64.0, 188.0)
+[04:46:33] [Server thread/INFO]: RedJumper issued server command: /tpa mashallah___
+[04:46:35] [Server thread/INFO]: BigDickPerson issued server command: /home netherportal
+[04:46:37] [Server thread/INFO]: mashallah___ issued server command: /tpaccept
+[04:46:44] [Server thread/INFO]: BigDickPerson lost connection: Disconnected
+[04:46:44] [Server thread/INFO]: BigDickPerson left the game.
+[04:46:48] [Thread-80/INFO]: UUID of player BigDickPerson is 85934d56-958c-3627-8a8c-6d4be04fb46f
+[04:46:48] [Server thread/INFO]: BigDickPerson[/[0:0:0:0:0:0:0:1]:51022] logged in with entity id 57690 at ([world]-220.0, 64.0, 188.0)
+[04:46:54] [Server thread/INFO]: BigDickPerson lost connection: Disconnected
+[04:46:54] [Server thread/INFO]: BigDickPerson left the game.
+[04:46:56] [Craft Scheduler Thread - 75/INFO]: [Metrics] Connection refused
+[04:46:57] [Thread-81/INFO]: UUID of player BigDickPerson is 85934d56-958c-3627-8a8c-6d4be04fb46f
+[04:46:57] [Server thread/INFO]: BigDickPerson[/[0:0:0:0:0:0:0:1]:42168] logged in with entity id 57820 at ([world]-220.0, 64.0, 188.0)
+[04:48:32] [Server thread/INFO]: BigDickPerson lost connection: Disconnected
+[04:48:32] [Server thread/INFO]: BigDickPerson left the game.
+[04:49:22] [Server thread/INFO]: mashallah___ was slain by Zombie
+[04:49:25] [Server thread/INFO]: mashallah___ issued server command: /back
+[04:49:36] [Server thread/INFO]: RedJumper was slain by mashallah___
+[04:49:41] [Server thread/INFO]: RedJumper issued server command: /back
+[04:49:51] [Server thread/INFO]: mashallah___ issued server command: /home farm
+[04:50:23] [Server thread/INFO]: RedJumper lost connection: Disconnected
+[04:50:23] [Server thread/INFO]: RedJumper left the game.
+[04:52:58] [Thread-82/INFO]: UUID of player BigDickPerson is 85934d56-958c-3627-8a8c-6d4be04fb46f
+[04:52:58] [Server thread/INFO]: BigDickPerson[/[0:0:0:0:0:0:0:1]:37196] logged in with entity id 61805 at ([world]-220.0, 64.0, 188.0)
+[04:53:16] [Server thread/INFO]: BigDickPerson lost connection: Disconnected
+[04:53:16] [Server thread/INFO]: BigDickPerson left the game.
+[04:53:19] [Thread-83/INFO]: UUID of player BigDickPerson is 85934d56-958c-3627-8a8c-6d4be04fb46f
+[04:53:19] [Server thread/INFO]: BigDickPerson[/[0:0:0:0:0:0:0:1]:48526] logged in with entity id 62075 at ([world]-220.0, 64.0, 188.0)
+[04:53:19] [Server thread/INFO]: BigDickPerson lost connection: Disconnected
+[04:53:19] [Server thread/INFO]: BigDickPerson left the game.
+[04:53:20] [Server thread/INFO]: mashallah___ was slain by Zombie
+[04:53:24] [Thread-84/INFO]: UUID of player BigDickPerson is 85934d56-958c-3627-8a8c-6d4be04fb46f
+[04:53:25] [Server thread/INFO]: BigDickPerson[/[0:0:0:0:0:0:0:1]:41250] logged in with entity id 62608 at ([world]-220.0, 64.0, 188.0)
+[04:53:29] [Server thread/INFO]: BigDickPerson lost connection: Internal Exception: java.net.SocketException: Connection reset
+[04:53:29] [Server thread/INFO]: BigDickPerson left the game.
+[04:53:32] [Thread-85/INFO]: UUID of player BigDickPerson is 85934d56-958c-3627-8a8c-6d4be04fb46f
+[04:53:32] [Server thread/INFO]: BigDickPerson[/[0:0:0:0:0:0:0:1]:41264] logged in with entity id 63020 at ([world]-220.0, 64.0, 188.0)
+[04:53:43] [Server thread/INFO]: BigDickPerson lost connection: Disconnected
+[04:53:43] [Server thread/INFO]: BigDickPerson left the game.
+[04:53:48] [Server thread/INFO]: mashallah___ issued server command: /back
+[04:55:20] [Thread-86/INFO]: UUID of player BigDickPerson is 85934d56-958c-3627-8a8c-6d4be04fb46f
+[04:55:20] [Server thread/INFO]: BigDickPerson[/[0:0:0:0:0:0:0:1]:47712] logged in with entity id 64124 at ([world]-220.0, 64.0, 188.0)
+[04:55:28] [Server thread/INFO]: BigDickPerson lost connection: Disconnected
+[04:55:28] [Server thread/INFO]: BigDickPerson left the game.
+[04:55:32] [Server thread/INFO]: Mr_Hugs issued server command: /tpa black_lock_ash
+[04:55:39] [Thread-87/INFO]: UUID of player BigDickPerson is 85934d56-958c-3627-8a8c-6d4be04fb46f
+[04:55:39] [Server thread/INFO]: BigDickPerson[/[0:0:0:0:0:0:0:1]:41000] logged in with entity id 64461 at ([world]-220.0, 64.0, 188.0)
+[04:55:45] [Server thread/INFO]: black_lock_ash issued server command: /tpaccept
+[04:55:50] [Server thread/INFO]: BigDickPerson lost connection: Disconnected
+[04:55:50] [Server thread/INFO]: BigDickPerson left the game.
+[04:55:53] [Thread-88/INFO]: UUID of player BigDickPerson is 85934d56-958c-3627-8a8c-6d4be04fb46f
+[04:55:53] [Server thread/INFO]: BigDickPerson[/[0:0:0:0:0:0:0:1]:49494] logged in with entity id 64503 at ([world]-220.0, 64.0, 188.63703047678587)
+[04:56:05] [Server thread/INFO]: BigDickPerson tried to swim in lava
+[04:56:08] [Server thread/INFO]: Mr_Hugs lost connection: Disconnected
+[04:56:08] [Server thread/INFO]: Mr_Hugs left the game.
+[04:56:11] [Server thread/INFO]: BigDickPerson issued server command: /back
+[04:56:18] [Server thread/INFO]: BigDickPerson tried to swim in lava
+[04:56:57] [Craft Scheduler Thread - 79/INFO]: [Metrics] Connection refused
+[04:57:00] [Server thread/INFO]: BigDickPerson has just earned the achievement [Time to Strike!]
+[04:57:20] [Server thread/INFO]: xXSam_PlayzXx issued server command: /sethome newbase
+[04:57:31] [Thread-89/INFO]: UUID of player Mr_dot is b99e8ff9-4a21-3e78-80bb-ca09d8043eb8
+[04:57:31] [Server thread/INFO]: Mr_dot[/[0:0:0:0:0:0:0:1]:41324] logged in with entity id 65505 at ([world]-220.0, 64.0, 188.0)
+[04:57:49] [Thread-90/INFO]: UUID of player Mr_Hugs is d9e61b9d-9b8c-325f-b3a7-ca4fc3111270
+[04:57:49] [Server thread/INFO]: Mr_Hugs[/[0:0:0:0:0:0:0:1]:47944] logged in with entity id 65930 at ([world]-220.0, 64.0, 188.0)
+[04:57:59] [Server thread/INFO]: Mr_dot issued server command: /tpa mashallah
+[04:58:01] [Server thread/INFO]: mashallah___ was shot by Skeleton
+[04:58:22] [Server thread/INFO]: Mr_dot issued server command: /tpa black_lock_ash
+[04:58:23] [Server thread/INFO]: mashallah___ issued server command: /back
+[04:58:32] [Server thread/INFO]: black_lock_ash was slain by Enderman
+[04:58:45] [Server thread/INFO]: Mr_Hugs issued server command: /back
+[04:59:01] [Server thread/INFO]: Mr_dot issued server command: /msg mashallah
+[04:59:03] [Server thread/INFO]: Mr_Hugs issued server command: /tpa kitncake_12
+[04:59:15] [Server thread/INFO]: BigDickPerson issued server command: /home newhome
+[04:59:25] [Server thread/INFO]: Mr_dot issued server command: /tell mashallah
+[04:59:39] [Server thread/INFO]: Mr_Hugs issued server command: /tpa kitncake_12
+[04:59:44] [Server thread/INFO]: Mr_dot issued server command: /tell mashallah tp me
+[04:59:44] [Server thread/INFO]: [Mr_dot: That player cannot be found]
+[04:59:52] [Server thread/INFO]: black_lock_ash issued server command: /back
+[04:59:56] [Server thread/INFO]: kitncake_12 issued server command: /accept
+[04:59:57] [Server thread/INFO]: BigDickPerson lost connection: Disconnected
+[04:59:57] [Server thread/INFO]: BigDickPerson left the game.
+[05:00:01] [Server thread/INFO]: Mr_dot issued server command: /tell <mashallah> <tp me>
+[05:00:01] [Server thread/INFO]: [Mr_dot: That player cannot be found]
+[05:00:04] [Server thread/WARN]: Mr_Hugs moved wrongly!
+[05:00:22] [Server thread/INFO]: Mr_dot issued server command: /tpa black_lock_ash
+[05:01:21] [Server thread/INFO]: Mr_dot issued server command: /tell black_lock_ash tp me
+[05:05:36] [Server thread/INFO]: Mr_Hugs issued server command: /tpa xXSam_PlayzXx
+[05:05:42] [Server thread/INFO]: xXSam_PlayzXx issued server command: /tpdeny
+[05:05:53] [Thread-92/INFO]: UUID of player BigDickPerson is 85934d56-958c-3627-8a8c-6d4be04fb46f
+[05:05:53] [Server thread/INFO]: BigDickPerson[/[0:0:0:0:0:0:0:1]:60060] logged in with entity id 68258 at ([world]-220.0, 64.0, 188.0)
+[05:06:28] [Server thread/INFO]: mashallah___ issued server command: /home something
+[05:06:32] [Thread-93/INFO]: UUID of player Destructive_Bob is ef566981-37a8-3e53-8425-b29b60b44d98
+[05:06:32] [Server thread/INFO]: Destructive_Bob[/[0:0:0:0:0:0:0:1]:55740] logged in with entity id 68392 at ([world]-220.0, 64.0, 188.0)
+[05:06:34] [Server thread/INFO]: mashallah___ issued server command: /sethome something
+[05:06:40] [Server thread/INFO]: mashallah___ issued server command: /home
+[05:06:42] [Server thread/INFO]: mashallah___ issued server command: /homes
+[05:06:56] [Server thread/INFO]: mashallah___ issued server command: /home sigmahome
+[05:06:57] [Craft Scheduler Thread - 85/INFO]: [Metrics] Connection refused
+[05:07:05] [Server thread/INFO]: Destructive_Bob was slain by Mr_Hugs
+[05:07:10] [Server thread/INFO]: mashallah___ issued server command: /home something
+[05:07:11] [Server thread/INFO]: BigDickPerson lost connection: Disconnected
+[05:07:11] [Server thread/INFO]: BigDickPerson left the game.
+[05:07:21] [Server thread/INFO]: kitncake_12 issued server command: /tpa xXSam_PlayzXx
+[05:07:24] [Server thread/INFO]: Mr_Hugs issued server command: /tpa Destructive_Bob
+[05:07:25] [Server thread/INFO]: xXSam_PlayzXx issued server command: /tpaccept
+[05:07:29] [Server thread/INFO]: Destructive_Bob issued server command: /tpaccept
+[05:07:50] [Server thread/INFO]: kitncake_12 issued server command: /home sam
+[05:08:29] [Server thread/INFO]: Mr_Hugs issued server command: /tpa kitncake_12
+[05:08:36] [Server thread/INFO]: Destructive_Bob issued server command: /home Sam's Base
+[05:08:39] [Server thread/INFO]: Destructive_Bob issued server command: /home
+[05:08:49] [Server thread/INFO]: Mr_Hugs issued server command: /home secret
+[05:08:55] [Server thread/INFO]: Destructive_Bob issued server command: /home Sams Base
+[05:09:03] [Server thread/INFO]: xXSam_PlayzXx issued server command: /sethome newbase2
+[05:09:08] [Server thread/INFO]: Destructive_Bob issued server command: /back
+[05:09:17] [Server thread/INFO]: xXSam_PlayzXx issued server command: /removehome homehelow
+[05:09:21] [Server thread/INFO]: Destructive_Bob issued server command: /back
+[05:09:25] [Server thread/INFO]: xXSam_PlayzXx issued server command: /removehome homebelow
+[05:09:34] [Server thread/INFO]: Mr_Hugs issued server command: /tpa Destructive_Bob
+[05:09:36] [Server thread/INFO]: xXSam_PlayzXx issued server command: /remove sambase
+[05:09:43] [Server thread/INFO]: Destructive_Bob issued server command: /tpaccept
+[05:09:47] [Server thread/INFO]: xXSam_PlayzXx issued server command: /sethome newbase2
+[05:09:56] [Server thread/INFO]: xXSam_PlayzXx issued server command: /removehome 1
+[05:10:13] [Server thread/INFO]: xXSam_PlayzXx issued server command: /removehome homebelow
+[05:10:48] [Server thread/INFO]: xXSam_PlayzXx issued server command: /removehome home
+[05:10:56] [Server thread/INFO]: xXSam_PlayzXx issued server command: /sethome newbase2
+[05:11:18] [Server thread/INFO]: black_lock_ash issued server command: /tpa mashallah___
+[05:11:19] [Server thread/INFO]: xXSam_PlayzXx lost connection: Disconnected
+[05:11:19] [Server thread/INFO]: xXSam_PlayzXx left the game.
+[05:11:20] [Server thread/INFO]: mashallah___ issued server command: /tpaccept
+[05:11:30] [Server thread/INFO]: Mr_Hugs issued server command: /tpa black_lock_ash
+[05:11:46] [Server thread/INFO]: Mr_Hugs issued server command: /home secret
+[05:12:26] [Server thread/INFO]: Mr_Hugs issued server command: /tpa Destructive_Bob
+[05:12:42] [Server thread/INFO]: Mr_Hugs issued server command: /tpa kitncake_12
+[05:13:02] [Server thread/INFO]: black_lock_ash was slain by mashallah___
+[05:13:08] [Server thread/INFO]: kitncake_12 lost connection: Disconnected
+[05:13:08] [Server thread/INFO]: kitncake_12 left the game.
+[05:13:08] [Server thread/INFO]: mashallah___ lost connection: Disconnected
+[05:13:08] [Server thread/INFO]: mashallah___ left the game.
+[05:13:09] [Server thread/INFO]: black_lock_ash lost connection: Disconnected
+[05:13:09] [Server thread/INFO]: black_lock_ash left the game.
+[05:13:13] [Server thread/INFO]: Destructive_Bob lost connection: Disconnected
+[05:13:13] [Server thread/INFO]: Destructive_Bob left the game.
+[05:13:48] [Server thread/INFO]: Mr_Hugs lost connection: Disconnected
+[05:13:48] [Server thread/INFO]: Mr_Hugs left the game.
+[05:15:09] [Server thread/INFO]: Mr_dot lost connection: Disconnected
+[05:15:09] [Server thread/INFO]: Mr_dot left the game.
+[05:16:57] [Craft Scheduler Thread - 86/INFO]: [Metrics] Connection refused
+[05:19:14] [Thread-94/INFO]: UUID of player Mr_dot is b99e8ff9-4a21-3e78-80bb-ca09d8043eb8
+[05:19:14] [Server thread/INFO]: Mr_dot[/[0:0:0:0:0:0:0:1]:33274] logged in with entity id 73049 at ([world]-220.0, 64.0, 188.0)
+[05:19:18] [Server thread/INFO]: Mr_dot lost connection: Disconnected
+[05:19:18] [Server thread/INFO]: Mr_dot left the game.
+[05:26:57] [Craft Scheduler Thread - 90/INFO]: [Metrics] Connection refused
+[05:36:57] [Craft Scheduler Thread - 92/INFO]: [Metrics] Connection refused
