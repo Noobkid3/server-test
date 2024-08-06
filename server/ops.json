@@ -4,5 +4,17 @@
     "name": "Boon2",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "1d0940aa-7a2c-42cf-997e-561f5784e461",
+    "name": "Boon3",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "15edad40-b37a-3445-95d6-28b5c0dfda05",
+    "name": "Boon3",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]

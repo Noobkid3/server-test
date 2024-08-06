@@ -6,7 +6,7 @@ Original Project: Lax1Dude
 Original Server Fork: EcoliEater87
 <br>
 ## Setup Guide
-Welcome to the EaglercraftX server project! Here is how you can setup your very own eaglercraft server:
+Welcome to the EaglercraftX server project! Here is how you can setup your very own eaglercraft server:r
 <br>
 <br>
 First, go to the top of the repo and click on code > codespaces > create codespace
